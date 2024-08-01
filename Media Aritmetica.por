@@ -1,18 +1,18 @@
 programa {
   funcao inicio() {
-   //Declaração de Variável
-   real valorA, valorB, valorC, valorD
+   //DeclaraÃ§Ã£o de VariÃ¡vel
+   real nota1, nota2, nota3, nota4, media
 
-   escreva ("Digite a sua nota de Linguagens: ")
-   leia (valorA)
-   escreva ("Digite a sua nota de Matemática: ")
-   leia (valorB)
-   escreva ("Digite a sua nota de Ciências Humanas: ")
-   leia (valorC)
-   escreva ("Digite a sua nota de Ciências da Natureza: ")
-   leia (valorD)
+   escreva ("Digite a nota do 1Âº Bim: ")
+   leia (nota1)
+   escreva ("Digite a nota do 2Âº Bim: ")
+   leia (nota2)
+   escreva ("Digite a nota do 3Âº Bim:: ")
+   leia (nota3)
+   escreva ("Digite a nota do 14Âº Bim: ")
+   leia (nota4)
 
-
-   escreva ("A média das notas é: ", ((valorA + valorB + valorC + valorD)/4))
+  media = (nota1 + nota2 + nota3 + nota4) / 4
+   escreva ("A mÃ©dia final = ", media)
   }
 }
